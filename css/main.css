@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:click {
+  text-decoration: none;
+}
+
+.main-area {
+  height: 100%;
+  width: 500px;
+  background-color: rgba(199, 97, 20, 0.4);
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.tempc {
+  display: none;
+}
+
+.footer {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-size: 100% 100%;
+  }
+  .main-area {
+    width: 80%;
+  }
+}
